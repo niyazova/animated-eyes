@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/man-1.png" alt="Man">
+        <div class="hear-info">
+            <h2>Name: <span id="name"></span></h2>
+            <p>Job <span id="job"></span></p>
+            <p>Location <span id="location"></span></p>
+            <p>Date of birth: <span id="dob"></span></p>
+        </div>
+
+    </div>
+    <div>
+        <p><input type="text" name="name" placeholder="Full name"></p>
+        <p><input type="text" name="job" placeholder="Job title"></p>
+        <p><input type="text" name="location" placeholder="Location"></p>
+        <p><input type="date" name="dob" placeholder="Date of Birth"></p>
+        <button onclick="updateInfo()">Save</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

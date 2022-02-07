@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#body_btn {
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(115, 56, 170);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#body_btn:hover {
+    background-color: white;
+    border: 1px solid rgb(115, 56, 170);
+    color: rgb(115, 56, 170);
+}
+
+#body_span {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(115, 56, 170);
+}
+/* second */
+
+.square {
+    height: 90px;
+    width: 90px;
+    border-radius: 6px;
+    line-height: 50px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    background-color: black;
+    font-family: sans-serif;
+}
+.main_btn {
+    margin-left: 20px;
+    height: 25px;
+    width: 90px;
+    border-radius: 6px;
+    background-color: cornflowerblue;
+    border: none;
+    outline: none;
+    color: white;
+}
+.main_btn:hover {
+    border: 1px solid cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+}
+
+
+/* localStorage */
+
+fieldset {
+    margin-top: 40px;
+}
+
+#inputKey {
+    margin-right: 15px;
+    padding: 7 px;
+    height: 40px;
+}
+#inputValue {
+    margin-right: 15px;
+    padding: 7 px;
+    height: 40px;
+}
+#btnInsert {
+    height: 30px ;
+}

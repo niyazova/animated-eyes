@@ -1,0 +1,120 @@
+nav {
+    height: 40px;
+}
+nav  h2{
+    color: rgb(82, 78, 78);
+    margin-left: 50px;
+    margin-top: 5px;
+}
+header {
+    text-align: center;
+    height: 420px;
+    background-color: rgb(230, 214, 214);
+}
+.col2 img {
+    margin-top: 50px;
+    height: 350px;
+}
+.col1 h2 {
+    margin-top: 20px;
+    color: rgb(105, 97, 97);
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+.btn-group button {
+    background-color: rgb(116, 116, 230);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-top: 25px;
+    height: 50px;
+    width: 300px;
+}
+.btn-group button:hover {
+    font-size: 15px;
+    background-color: rgb(18, 18, 139);
+}
+.dom {
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.data1 {
+    height: 290px;
+    width: 220px;
+    background-color: rgb(238, 125, 125);
+    border-radius: 15px;
+}
+.data1 img {
+    margin-top: 20px;
+    object-fit: cover;
+}
+.data1 h6 {
+    margin-top: 20px;
+    color: white;
+}
+.data1 p {
+    color: white;
+    margin-top: 20px;
+}
+.data2 {
+    margin-left: 65px;
+    height: 290px;
+    width: 220px;
+    background-color: rgb(25, 25, 216);
+    border-radius: 15px;
+}
+.data2 img {
+    margin-top: 20px;
+    object-fit: cover;
+}
+.data2 h6 {
+    margin-top: 20px;
+    color: white;
+}
+.data2 p {
+    color: white;
+    margin-top: 20px;
+}
+.data3 {
+    margin-left: 65px;
+    height: 290px;
+    width: 220px;
+    background-color: rgb(169, 112, 223);
+    border-radius: 15px;
+}
+.data3 img {
+    margin-top: 20px;
+    object-fit: cover;
+}
+.data3 h6 {
+    margin-top: 20px;
+    color: white;
+}
+.data3 p {
+    color: white;
+    margin-top: 20px;
+}
+.data4 {
+    margin-left: 65px;
+    height: 290px;
+    width: 220px;
+    background-color: rgb(230, 186, 105);
+    border-radius: 15px;
+}
+.data4 img {
+    margin-top: 20px;
+    object-fit: cover;
+}
+.data4 h6 {
+    margin-top: 20px;
+    color: white;
+}
+.data4 p {
+    color: white;
+    margin-top: 20px;
+}

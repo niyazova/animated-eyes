@@ -1,0 +1,24 @@
+.grid__item {
+    background-color: rgb(179, 125, 230);
+    /* height: 100px; */
+    margin: 5px;
+}
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(50px, auto);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+.grid__item--1 {
+    grid-column: span 3;
+}
+.grid__item--2 {
+    grid-row: span 2;
+}
+.grid__item--3 {
+    grid-row: span 2;
+}
+.grid__item--4 {
+    grid-row: span 4;
+}

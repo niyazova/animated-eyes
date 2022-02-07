@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #data {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .box-item {
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            
+            justify-content: center;
+            font-size: 40px;
+        }
+        
+        .box-item:nth-of-type(even) {
+            background-color: rgb(218, 8, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text"><button>Add</button>
+    <button onclick="addDivBox()">Add box</button>
+    <div id="data"></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

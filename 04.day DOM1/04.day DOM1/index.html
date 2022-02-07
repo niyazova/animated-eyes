@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM</title>
+    
+</head>
+<body>
+    <nav>
+        <h2>web.com</h2>
+    </nav>
+    <header>
+        <div class="row">
+            <div class="col1 col-6">
+                <h2>Website Builder</h2>
+                    <div class="btn-group">
+                        <button onclick="addInfo(event)">The Website Essentials</button>
+                        <button onclick="addInfo(event)">Drag-and-drop Site Design</button>
+                        <button onclick="addInfo(event)">Tools For Getting Online</button>
+                        <button onclick="addInfo(event)">Unlimited Expert Support</button>
+                    </div> 
+            </div>
+            <div class="col2 col-6">
+                <img src="./pic1.png" alt="">
+            </div>
+        </div>
+        <div class="dom">
+               <div class="data1" id="data">
+                <span>
+                    <img src="./pic2.png" height="100px" alt="">
+                    <h6>The Website Essentials</h6>
+                    <p>Get online quickly with  a domain, hosting, blog and professional email... </p>
+                </span>
+               </div> 
+               <div class="data2" id="data">
+                    <img src="./pic3.png" height="100px" alt="">
+                    <h6>Drag-and-drop Site Design</h6>
+                    <p>Create and customize your websitewith an  easy-to-use builder...</p>
+               </div>
+               <div class="data3" id="data">
+                    <img src="./pic4.webp" height="100px" alt="">
+                    <h6>Tools For Getting Online</h6>
+                    <p>Reach more customers through SEO and business directory listings...</p>
+               </div>
+               <div class="data4" id="data">
+                    <img src="./pic5.webp" height="100px" alt="">
+                    <h6>Unlimited Expert Support</h6>
+                    <p> Your website coach <br> will be  with every step <br> of the way...</p>
+               </div>
+
+        </div>
+
+    </header>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
